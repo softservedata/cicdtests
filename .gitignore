@@ -1,0 +1,17 @@
+# Mac OS
+.DS_Store
+
+# Ignore logs
+*.log
+*.log.[1234567890]
+/allure-report/
+/allure-results/
+/reports/
+
+# Playwright
+/node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
